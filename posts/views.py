@@ -11,7 +11,7 @@ from .models import Post
 # Create your views here.
 
 def home(request):
-    return HttpResponse('''div>
+    return HttpResponse('''<div>
                             <h1>Welcome to our posts rest api service.</h1> 
                             <p>
                                 <strong>Visit these endpoints below to use our api:</strong> <br>
