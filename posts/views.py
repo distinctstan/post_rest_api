@@ -14,11 +14,11 @@ def home(request):
     return HttpResponse('''<div>
                             <h1>Welcome to our posts rest api service.</h1> 
                             <p>
-                                <strong>Visit these endpoints below to use our api:</strong> <br>
+                                <strong>Visit these endpoints below to use the api:</strong> <br>
                                 <span style="color:green">/all/post/</span> - To view all posts <br>
                                 <span style="color:green">/create/post/</span> - To create a new post (Requires Authentication) <br>
-                                <span style="color:green">/update/post/<post_id>/</span> - To update a post (Requires Authentication) <br>
-                                <span style="color:green">/delete/post/<post_id>/</span> - To delete a post (Requires Authentication) <br>         
+                                <span style="color:green">/update/post/{post_id}/</span> - To update a post (Requires Authentication) <br>
+                                <span style="color:green">/delete/post/{post_id}/</span> - To delete a post (Requires Authentication) <br>         
                                 <span style="color:green">/update/user/profile/</span> - To update user profile (Requires Authentication) <br>         
                                 <span style="color:green">/register/</span> - To register a new user <br>         
                                 <span style="color:green">/token/</span> - To obtain a token for authentication <br>         
