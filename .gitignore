@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Media and static files (if managed separately or collected on deployment)
+media/
+static/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Environment variables
+.env
+*.env
+
+# Local settings
+local_settings.py
+
+# Other common ignored files
+*.log
+*.pot
+.DS_Store
